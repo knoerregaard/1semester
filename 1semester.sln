@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1semester", "1semester\1semester.csproj", "{2831105F-B40B-421C-B2B2-817AED1B57FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{57448506-5ACA-46E6-BF7B-0E80113B74A4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\ProductView_LowFidProto.GIF = ..\..\..\Desktop\ProductView_LowFidProto.GIF
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
