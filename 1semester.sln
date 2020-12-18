@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{57448506-5ACA-46E6-BF7B-0E80113B74A4}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Desktop\ProductView_LowFidProto.GIF = ..\..\..\Desktop\ProductView_LowFidProto.GIF
+		text.txt = text.txt
 	EndProjectSection
 EndProject
 Global
