@@ -1,4 +1,4 @@
-﻿using _1semester.View;
+﻿using _1semester.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,18 +14,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _1semester
+namespace _1semester.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for EmployeeListView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class EmployeeListView : Page
     {
-        public MainWindow()
+        public EmployeeListView()
         {
             InitializeComponent();
-            EmployeeListView empListView = new EmployeeListView();
-            PageFrame.Content = empListView;
+
+            List<Employee> empList = new List<Employee>();
+
+            empList = DB.GetAllEmployees(empList);
+
+            EmployeeListBox.ItemsSource = empList;
         }
     }
 }
