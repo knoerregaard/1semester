@@ -13,3 +13,7 @@
 ---
 
 ![](https://i.imgur.com/QSboF2N.png)
+
+<details>
+ detaljer som er skjult i en accordion
+</details>
